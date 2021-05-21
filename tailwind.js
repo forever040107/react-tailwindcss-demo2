@@ -45,8 +45,9 @@ View the full documentation at https://tailwindcss.com.
 
 let colors = {
   'transparent': 'transparent',
-
   'black': '#22292f',
+  'white': '#ffffff',
+
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -54,7 +55,22 @@ let colors = {
   'grey-light': '#dae1e7',
   'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
-  'white': '#ffffff',
+  'grey-50': '#F9F9F9',
+  'grey-100': '#ECECEC',
+  'grey-200': '#DDDDDD',
+  'grey-300': '#CCCCCC',
+  'grey-400': '#BBBBBB',
+  'grey-500': '#454545',
+  'grey-600': '#333333',
+  'grey-650': '#2F2E36',
+  'grey-700': '#161616',
+
+  'platinum-100': '#B9C0C7',
+  'platinum-200': '#95A3B0',
+  'platinum-250': '#7C95B4',
+  'platinum-300': '#5E7184',
+  'platinum-400': '#406C82',
+  'platinum-500': '#214556',
 
   'red-darkest': '#3b0d0c',
   'red-darker': '#621b18',
@@ -103,6 +119,11 @@ let colors = {
   'blue-light': '#6cb2eb',
   'blue-lighter': '#bcdefa',
   'blue-lightest': '#eff8ff',
+  'blue-50': '#F7F9FF',
+  'blue-75': '#738DFF',
+  'blue-100': '#51A1FF',
+  'blue-200': '#1D8AEB',
+  'blue-300': '#1A72C0',
 
   'indigo-darkest': '#191e38',
   'indigo-darker': '#2f365f',
@@ -259,6 +280,22 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    'title-1': '30px',
+    'title-2': '28px',
+    'title-3': '26px',
+    'title-4': '24px',
+    'title-5': '22px',
+    'title-6': '18px',
+    'title-7': '16px',
+    'title-8': '14px',
+    'body-1': '18px',
+    'body-2': '16px',
+    'body-3': '15px',
+    'body-4': '14px',
+    'body-5': '13px',
+    'body-6': '12px',
+    'body-7': '11px',
+    'body-8': '10px',
   },
 
 
@@ -467,6 +504,22 @@ module.exports = {
   |
   */
 
+  spacing: {
+    0: '0px',
+    1: '4px',
+    2: '8px',
+    3: '12px',
+    4: '16px',
+    5: '20px',
+    6: '24px',
+    7: '28px',
+    8: '32px',
+    9: '36px',
+    10: '40px',
+    11: '44px',
+    12: '48px',
+  },
+
   width: {
     'auto': 'auto',
     'px': '1px',
@@ -623,62 +676,6 @@ module.exports = {
     'full': '100%',
     'screen': '100vh',
   },
-
-
-  /*
-  |-----------------------------------------------------------------------------
-  | Padding                                https://tailwindcss.com/docs/padding
-  |-----------------------------------------------------------------------------
-  |
-  | Here is where you define your padding utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default we
-  | provide a sensible rem based numeric scale plus a couple other
-  | common use-cases like "1px". You can, of course, modify these
-  | values as needed.
-  |
-  | Class name: .p{side?}-{size}
-  |
-  */
-
-  padding: {
-    'px': '1px',
-    '0': '0',
-    '1': '0.25rem',
-    '2': '0.5rem',
-    '3': '0.75rem',
-    '4': '1rem',
-    '6': '1.5rem',
-    '8': '2rem',
-  },
-
-
-  /*
-  |-----------------------------------------------------------------------------
-  | Margin                                  https://tailwindcss.com/docs/margin
-  |-----------------------------------------------------------------------------
-  |
-  | Here is where you define your margin utility sizes. These can be
-  | percentage based, pixels, rems, or any other units. By default we
-  | provide a sensible rem based numeric scale plus a couple other
-  | common use-cases like "1px". You can, of course, modify these
-  | values as needed.
-  |
-  | Class name: .m{side?}-{size}
-  |
-  */
-
-  margin: {
-    'auto': 'auto',
-    'px': '1px',
-    '0': '0',
-    '1': '0.25rem',
-    '2': '0.5rem',
-    '3': '0.75rem',
-    '4': '1rem',
-    '6': '1.5rem',
-    '8': '2rem',
-  },
-
 
   /*
   |-----------------------------------------------------------------------------
