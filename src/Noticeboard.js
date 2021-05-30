@@ -21,7 +21,7 @@ function LinkNoticeBoard() {
     )
 
     return (
-        <div>
+        <div className="bg-grey-50 h-screen">
             {data && data.data.map((item, index) => {
                 return (
                     <div
